@@ -1,0 +1,66 @@
+{
+  "name": "dynamic_filters",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "build:start": "cd dist && PORT=9000 npx serve",
+    "start": "webpack serve --open --mode development",
+    "start:live": "webpack serve --open --mode development --live-reload --hot"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Radu Enuca",
+    "email": "raduenuca@microsoft.com"
+  },
+  "contributors": [
+    {
+      "name": "Radu Enuca",
+      "email": "raduenuca@microsoft.com"
+    },
+    {
+      "name": "Bogdan Balan",
+      "email": "bogdanbalan@microsoft.com"
+    }
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/node": "14.x",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "autoprefixer": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.3.0",
+    "html-webpack-plugin": "^5.3.2",
+    "msw": "^0.49.2",
+    "postcss": "^8.2.1",
+    "postcss-loader": "^4.1.0",
+    "style-loader": "^3.3.0",
+    "typescript": "^4.5.2",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "@fluentui/react-components": "^9.15.3",
+    "@tanstack/react-query": "^4.20.4",
+    "@zodios/core": "^10.7.1",
+    "@zodios/plugins": "^10.3.3",
+    "@zodios/react": "^10.4.0",
+    "axios": "^1.2.1",
+    "mobx": "^6.7.0",
+    "mobx-react-lite": "^3.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-ioc": "^1.0.0",
+    "react-router-dom": "^6.6.0",
+    "zod": "^3.20.2"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
