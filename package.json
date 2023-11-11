@@ -51,7 +51,7 @@
     "@zodios/core": "^10.7.1",
     "@zodios/plugins": "^10.3.3",
     "@zodios/react": "^10.4.0",
-    "axios": "^1.2.1",
+    "axios": "^1.6.0",
     "mobx": "^6.7.0",
     "mobx-react-lite": "^3.4.0",
     "react": "^18.2.0",
